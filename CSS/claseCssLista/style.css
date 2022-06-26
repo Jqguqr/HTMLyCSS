@@ -1,0 +1,20 @@
+/* class */
+.frutas {
+    color: greenyellow;
+    font-size: 30px;
+}
+
+.carnes {
+    color: red;
+    font-size: 30px;
+}
+
+.verduras {
+    color: green;
+    font-size: 30px;
+}
+
+.header {
+    color: black;
+    font-size: 60px;
+}
