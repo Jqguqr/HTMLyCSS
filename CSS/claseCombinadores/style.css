@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* hermano adyacente o cercano div + p {...}
+quiere decir colorea de rojo los parrafos que 
+esten cerca de un h2*/
+.adyacente h2 + p{
+    color: red;
+}
+
+/* hermano general */
+/* es decir dentro de una misma estructura o caja, 
+en este caso colorea todos los parrafos dentro del div*/
+.general h2 ~p{
+    color: blue;
+}
