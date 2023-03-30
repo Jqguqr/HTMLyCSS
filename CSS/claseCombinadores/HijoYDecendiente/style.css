@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Combinador Hijo */
+/* etiqueta p que sea hija directa de una etiqueta div */
+div > p {
+    color: aqua;
+}
+
+/* Combinador Desendiente */
+div p {
+    color: brown;
+}
