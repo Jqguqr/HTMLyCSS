@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* hermano general */
+/* es decir dentro de una misma estructura o caja, 
+en este caso colorea todos los parrafos dentro del div*/
+.general h2 ~p{
+    color: blue;
+}
+    
