@@ -1,0 +1,33 @@
+.head-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: aqua;
+}
+
+.head-nav_item{
+    display: inline-block;
+}
+
+/* ser especifico */
+.head-nav_item a{
+    color: red;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    /*  background-color: black; */
+}
+
+/* Pseudo Calses */
+.head-nav_item a:hover {
+    color: blue;
+}
+
+.head-nav_item a:active {
+    color: magenta;
+}
+
+/* Pseudo Elemento */
+.head-nav_item a::after{
+    content: " | ";
+}
