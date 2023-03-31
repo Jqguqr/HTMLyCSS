@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+/*
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    background-color: green;
+} */
+
+.chalenge {
+    width: 50vw;
+    height: 50vh;
+    margin: 10rem auto;
+}
+
+.title {
+    padding: 2rem;
+    background-color: rgb(76, 76, 236);
+    position: absolute;
+    top: auto;
+    left: auto;
+    display: inline-block;
+    border-radius: 1rem;
+    border-style: none;
+    border-color: black;
+}
+
+.title p {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    font-weight: 100;
+}
+
+.text {
+    height: 50vh;
+    background-color: wheat;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 3rem;
+    border-style: none;
+    border-color: black;
+}
